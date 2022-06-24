@@ -1,0 +1,45 @@
+*{
+    /* outline: 1px solid red; */
+}
+
+/* body background gradient and color */
+body{
+    background: linear-gradient(to top right, white, orange);
+}
+
+/* main background color white and center all elements */
+main{
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* Outline div containing buttons*/
+#buttons{
+    border: 2px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Center table */
+table, th, td{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid orange;
+}
+
+button{
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+#flip-btn{
+    background: linear-gradient(to top right, white, lightblue);
+}
+
+#clear-btn{
+    background: linear-gradient(to top right, white, orange);
+}
