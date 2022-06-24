@@ -43,3 +43,11 @@ button{
 #clear-btn{
     background: linear-gradient(to top right, white, orange);
 }
+
+#flip-btn:hover{
+    background:blue;
+}
+
+#clear-btn:hover{
+    background:orange;
+}
