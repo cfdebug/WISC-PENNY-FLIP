@@ -15,7 +15,7 @@ main{
     padding-bottom: 25px;
 }
 
-/* Outline div containing buttons*/
+/* Main positioning*/
 #buttons{
     border: 2px solid black;
     padding-top: 25px;
@@ -31,23 +31,28 @@ table, th, td{
     border: 2px solid orange;
 }
 
+/* All Buttons Style */
 button{
     border-radius: 25px;
     font-size: 25px;
 }
 
+/* Flip Button Background */
 #flip-btn{
     background: linear-gradient(to top right, white, lightblue);
 }
 
+/* Clear Button Background */
 #clear-btn{
     background: linear-gradient(to top right, white, orange);
 }
 
+/* Flip Button Hover Style */
 #flip-btn:hover{
     background:blue;
 }
 
+/* Clear Button Hover Style */
 #clear-btn:hover{
     background:orange;
 }
